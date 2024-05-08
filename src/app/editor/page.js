@@ -44,7 +44,7 @@ export default function AdminForm() {
       <main> 
         <div className='mx-auto container border border-gray-300 rounded bg-white p-4 mb-2'>
           <form onSubmit={(e) => {uploadImage(e)}}>
-              <label className='font-semibold' htmlFor='image'>Changer l'image du questionnaire :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='image'>Changer l&apos;image du questionnaire :</label>&nbsp;&nbsp;
               <input type="file" name="image" id='image' accept="image/jpeg"/>
               <div className='flex justify-end'>
                 <button className='font-light py-2 px-4 rounded border border-gray-100'>Modifier&nbsp;&nbsp;<FontAwesomeIcon icon={faSquareArrowUpRight}/></button>
@@ -64,7 +64,7 @@ export default function AdminForm() {
             </div>
 
             <div className="mb-10 flex">
-              <label className='font-semibold' htmlFor='city'>Afficher la question "Nom et Prénom" :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='city'>Afficher la question &quot;Nom et Prénom&quot; :</label>&nbsp;&nbsp;
               <select className="rounded border-2 border-gray-200" id='city' name ="city" {...register("names")}>
                 <option value="true">Activé</option>
                 <option value="false">Désactivé</option>
@@ -72,7 +72,7 @@ export default function AdminForm() {
             </div>
 
             <div className="mb-10">
-              <label className='font-semibold' htmlFor='age'>Afficher la question "Age" :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='age'>Afficher la question &quot;Age&quot; :</label>&nbsp;&nbsp;
               <select className="rounded border-2 border-gray-200" id='age' name ="age" {...register("age")}>
                 <option value="true">Activé</option>
                 <option value="false">Désactivé</option>
@@ -80,7 +80,7 @@ export default function AdminForm() {
             </div>
 
             <div className="mb-10">
-              <label className='font-semibold' htmlFor='gender' >Afficher la question "Genre" :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='gender' >Afficher la question &quot;Genre&quot; :</label>&nbsp;&nbsp;
               <select className="rounded border-2 border-gray-200" id='gender' name ="gender" {...register("gender")}>
                 <option value="true">Activé</option>
                 <option value="false">Désactivé</option>
@@ -88,7 +88,7 @@ export default function AdminForm() {
             </div>
 
             <div className="mb-10">
-              <label className='font-semibold' htmlFor='city'>Afficher la question "Ville" :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='city'>Afficher la question &quot;Ville&quot; :</label>&nbsp;&nbsp;
               <select className="rounded border-2 border-gray-200" id='city' name ="city" {...register("city")}>
                 <option value="true">Activé</option>
                 <option value="false">Désactivé</option>
@@ -96,7 +96,7 @@ export default function AdminForm() {
             </div>
 
             <div className="mb-10">
-              <label className='font-semibold' htmlFor='situation'>Afficher les questions "Situation", "Emploi" :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='situation'>Afficher les questions &quot;Situation&quot;, &quot;Emploi&quot; :</label>&nbsp;&nbsp;
               <select className="rounded border-2 border-gray-200" id='situation' name ="situation" {...register("situation")}>
                 <option value="true">Activé</option>
                 <option value="false">Désactivé</option>
@@ -104,7 +104,7 @@ export default function AdminForm() {
             </div>
 
             <div className="mb-10">
-              <label className='font-semibold' htmlFor='email'>Afficher la question "Email" :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='email'>Afficher la question &quot;Email&quot; :</label>&nbsp;&nbsp;
               <select className="rounded border-2 border-gray-200" id='email' name ="email" {...register("email")}>
                 <option value="true">Activé</option>
                 <option value="false">Désactivé</option>
@@ -112,7 +112,7 @@ export default function AdminForm() {
             </div>
 
             <div className="mb-7">
-              <label className='font-semibold' htmlFor='opinion'>Afficher la question "Avis" :</label>&nbsp;&nbsp;
+              <label className='font-semibold' htmlFor='opinion'>Afficher la question &quot;Avis&quot; :</label>&nbsp;&nbsp;
               <select className="rounded border-2 border-gray-200" id='opinion' name ="opinion" {...register("opinion")}>
                 <option value="true">Activé</option>
                 <option value="false">Désactivé</option>

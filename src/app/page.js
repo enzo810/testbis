@@ -67,7 +67,7 @@ export default function Form() {
           {custom && custom.names === true && 
             <div className='mb-10'>
               <h1>Nom et Prénom :</h1>
-              <p>Veuillez saisir votre nom puis votre prénom, si vous avez des prénoms secondaires, n'hésitez pas à les ajouter à la suite</p>
+              <p>Veuillez saisir votre nom puis votre prénom, si vous avez des prénoms secondaires, n&apos;hésitez pas à les ajouter à la suite</p>
               <input className="rounded border-2 border-gray-200 w-full" type="text" name="names" {...register("names", {required: true})}></input>
             </div>
           }
@@ -143,7 +143,7 @@ export default function Form() {
               {job === "yes" && 
                 <div className='mb-10'>
                   <h1>Emploi :</h1>
-                  <p>Cette information permettra d'affiner nos statistiques</p>
+                  <p>Cette information permettra d&apos;affiner nos statistiques</p>
                   <input className="rounded border-2 border-gray-200 w-full" type="text" name="jobText" {...register("job")}></input>
                 </div>
               }
