@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
 
-export default function adminForm() {
+export default function AdminForm() {
   const {register, handleSubmit} = useForm();
 
   const update = async (data) => {
